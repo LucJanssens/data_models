@@ -1,6 +1,4 @@
-package com.pelter.data.models;
-
-import java.util.Set;
+package com.pelter.data.model;
 
 /** Simple javaBean representation of an address 
 */
@@ -8,17 +6,14 @@ public class Address {
 	private String streetAddress;
 	private String city;
 	private String country;
-	private Set<Person> residents;
 
 	public Address() {
 	}
 
-	public Address(String streetAddress, String city, String country, Set<Person> residents){
+	public Address(String streetAddress, String city, String country){
 		this.streetAddress = streetAddress;
 		this.city = city;
 		this.country = country;
-		this.residents = residents;
-//		resident.setAddress( this );
 	}
 
 	public String getStreetAddress() {
