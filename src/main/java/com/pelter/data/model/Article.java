@@ -1,6 +1,8 @@
 package com.pelter.data.model;
 
 public class Article{
+	private String title;
+	private String url;
 	public String getUrl() {
 		return url;
 	}
@@ -17,6 +19,5 @@ public class Article{
 		this.title = title;
 	}
 
-	private String title;
-	private String url;
+
 }

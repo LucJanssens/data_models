@@ -1,6 +1,6 @@
 package com.pelter.data.model;
 
-/** Simple javaBean representation of an address 
+/** Simple business object representation of an address 
 */
 public class Address {
 	private String streetAddress;

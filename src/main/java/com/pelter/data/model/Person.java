@@ -3,6 +3,11 @@ package com.pelter.data.model;
 import java.util.Date;
 
 public class Person {
+	private String firstname;
+	private String lastname;
+	private String birthplace;
+	private Date birtdate;
+	
 	public String getFirstname() {
 		return firstname;
 	}
@@ -27,9 +32,4 @@ public class Person {
 	public void setBirtdate(Date birtdate) {
 		this.birtdate = birtdate;
 	}
-	
-	private String firstname;
-	private String lastname;
-	private String birthplace;
-	private Date birtdate;
 }
