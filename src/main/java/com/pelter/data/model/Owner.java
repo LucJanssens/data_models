@@ -1,6 +1,6 @@
 /*
  */
-package com.pelter.data.models;
+package com.pelter.data.model;
 
 /**
  * Simple JavaBean domain object representing an owner.

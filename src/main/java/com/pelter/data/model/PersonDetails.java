@@ -1,4 +1,4 @@
-package com.pelter.data.models;
+package com.pelter.data.model;
 
 import java.util.Date;
 
