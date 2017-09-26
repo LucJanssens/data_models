@@ -2,7 +2,7 @@ package simple;
 
 import java.time.LocalDate;
 import java.time.Period;
-import com.pekter.data.model.Person;
+import com.pelter.data.model.Person;
 
 public class PersonUtils {
 	public static int getAge(Person person) throws NullPointerException{
