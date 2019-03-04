@@ -10,6 +10,7 @@ public class Address {
 
 	/* Constructor */
 	public Address() {
+			/**/
 	}
 
 	public Address(String streetAddress, String city, String country){
