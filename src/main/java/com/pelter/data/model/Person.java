@@ -7,6 +7,7 @@ public class Person {
 	private String lastname;
 	private String birthplace;
 	private Date birtdate;
+	private GenderType gender;
 	
 	public String getFirstname() {
 		return firstname;
@@ -31,5 +32,14 @@ public class Person {
 	}
 	public void setBirtdate(Date birtdate) {
 		this.birtdate = birtdate;
+	}	
+	
+	public GenderType getGender() {
+		return this.gender;
 	}
+	public void setGender(GenderType gender) {
+		this.gender = gender;
+	}
+	
+	public enum GenderType { MALE, FEMALE, UNDEFINED };
 }
